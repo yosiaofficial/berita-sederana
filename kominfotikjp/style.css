@@ -1,0 +1,175 @@
+#header {
+  border: 3px solid #2A80B9;
+  background-color: #2A80B9;
+  border-radius: 15px 15px 0px 0px;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+
+#header h1{
+  color: white;
+  text-align: center;
+}
+
+#menu{
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  border-right: 3px solid #2A80B9;
+  border-left: 3px solid #2A80B9;
+  border-bottom: 3px solid #2A80B9;
+   border : 3px solid #2A80B9; 
+}
+
+.link {
+  color: #2A80B9;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+  border-bottom: 3px solid #2A80B9;
+}
+
+.link:hover {
+  color: #FFFFFF;
+  background: #2A80B9;
+  border-radius: 5px 5px 0px 0px;
+}
+
+
+#menu .menu-kiri{
+  float: left;
+  width: 70%;
+}
+
+#menu .menu-kanan{
+  float: right;
+  width: 25%;
+  text-align: right;
+  padding: 5px;
+}
+
+.tombol-biru{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #2A80B9;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+.tombol-biru:hover {
+  background:#2A80B9;
+  color:white;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+
+.tombol-merah{
+  background:#ef4162;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #da2648;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-merah:hover {
+  background:#da2648;
+  color:white;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+#article{
+  background-color: #e2e2e2;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  border: 3px solid #e2e2e2;
+}
+
+#article .kiri{
+  width: 70%;
+  float: left;
+}
+#article .kiri p{
+  text-align: justify;
+}
+
+.satu{
+  float: left;
+  width: 15%;
+  margin:0px 10px 10px 0px;
+}
+.detail{
+  float: left;
+  width: 40%;
+  margin:0px 20px 10px 0px;
+}
+
+#article a{
+  color: #2A80B9;
+  text-decoration: none;
+}
+
+#article .kanan{
+  width: 25%;
+  float: right;
+}
+#article .kanan p{
+  text-align: justify;
+}
+.isian {
+  display: block;
+  border-bottom: 2px dotted #848484;
+}
+.formkomentar {
+  padding: 10px;
+  border: 2px dashed #848484;
+  background: #f8f8f8;
+}
+
+.paging {
+  text-align: center;
+}
+.paging span {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
+#footer{
+  background-color: #2A80B9;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+  border: 3px solid #2A80B9;
+}
+#footer p{
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+

@@ -1,0 +1,80 @@
+/* code by muh iriansyah putra pratama */
+body {
+  background: #455;
+  font-family: 'Open Sans', sans-serif;
+}
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+/* code by muh iriansyah putra pratama */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.login-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+.login-container {
+  background: #ebebeb;
+  padding: 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+/* code by muh iriansyah putra pratama */
+.login p {
+  padding: 12px;
+}
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 15px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  border-radius: 10px;
+}
+.login input[type="Text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+/* code by muh iriansyah putra pratama */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border: 1px solid #28d;
+}
+.login input[type="submit"] {
+  background: #28d;
+  color: #fff;
+  cursor: pointer;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:6px solid #2A80B9;
+}
+.login input[type="submit"]:hover {
+  background: #2A80B9;
+}
+/* code by muh iriansyah putra pratama */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+a {
+  text-decoration: none;
+  color:#28d;
+}
+/* code by muh iriansyah putra pratama */

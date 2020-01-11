@@ -1,0 +1,161 @@
+
+#header{
+  background-color: #2A80B9;
+  border-radius: 15px 15px 0px 0px;
+  width: 69.9%;
+  margin: auto;
+  padding: 10px;
+}
+
+#header h1{
+  color: white;
+  text-align: center;
+}
+
+#menu{
+  background-color: white;
+  width: 69.5%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+  border: 3px solid #2A80B9;
+}
+
+.link {
+  color: #2A80B9;
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px;
+  border-bottom: 3px solid #2A80B9;
+
+}
+ .link:hover {
+  color: #FFFFFF;
+  background: #2A80B9;
+  border-radius: 5px 5px 0px 0px;
+}
+
+#menu .menu-kiri{
+  float: left;
+  width: 70%;
+}
+#menu .menu-kanan{
+  float: right;
+  width: 25%;
+  text-align: right;
+  padding: 5px;
+}
+
+.tombol-biru{
+  background:#2C97DF;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #2A80B9;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-biru:hover {
+  background:#2A80B9;
+  color:white;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+.tombol-merah{
+  background:#ef4162;
+  color:white;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom:4px solid #da2648;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+.tombol-merah:hover {
+  background:#da2648;
+  color:white;
+  border-radius: 5px;
+  padding:5px 20px;
+  text-decoration:none;
+  font-family:sans-serif;
+  font-size:11pt;
+}
+
+#article{
+  background-color: #f8f8f8;
+  width: 69.9%;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#article p {
+  text-align: justify;
+}
+
+#footer{
+  background-color: #2A80B9;
+  width: 69.9%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+#footer p{
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+table.news {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+.news td {
+  padding: 15px;
+  border: 1px solid black;
+}
+.news th {
+  background-color: #2A80B9;
+  color: white;
+  height: 50px;
+}
+.news tr:hover {
+background-color: #d8d8d8;
+}
+
+table.article {
+  border-collapse: collapse;
+  border: 0px;
+  width: 100%;
+}
+.article td {
+  border: 0px;
+  padding: 10px;
+}
+.article tr:hover {
+  background-color: #d8d8d8;
+}
+
+.paging {
+  text-align: center;
+}
+
+.paging span {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+
